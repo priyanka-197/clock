@@ -1,0 +1,25 @@
+img{
+    width: 38%;
+    
+}
+img:hover{
+   background-color: green;
+ 
+}
+.maincontainer{
+    border: 2px solid black;
+    background:linear-gradient(to left bottom,rgb(182, 255, 221),lightblue,lightpink);
+
+padding: 30px;
+margin: 30px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgb(44, 44, 53)
+}
+.container{
+    display: flex;
+    
+
+}
+h1{
+    color: green;
+}
