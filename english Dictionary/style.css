@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+     display: flex;
+    min-height: 100vh; 
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+    font-family: 'Courier New', Courier, monospace;
+}
+.maincontainer{
+    background-color: rgb(240, 99, 99);
+    padding: 28px;
+    box-shadow: 0 10px 10px brown;
+}
+#input{
+    height:40px;
+    width: 300px;
+    background-color: rgb(215, 83, 83)
+}
+.c1{
+    display: none;
+}
