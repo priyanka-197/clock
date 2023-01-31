@@ -15,11 +15,11 @@ async function fetchApi(word){
     
     p.style.display = 'none'
     c1.style.display = 'block'
-    title.innerHTML = url[0].word
-    meaning.innerHTML = url[0].meanings[0].definitions[0].definition
-
+    title.innerHTML = url[0].word;
+    meaning.innerHTML = url[0].meanings[0].definitions[0].definition;
+audio.src = url[0].phonetics[0].audio
     } catch (error) {
-        console.log(err);
+        console.log(error);
     }}
    
   
