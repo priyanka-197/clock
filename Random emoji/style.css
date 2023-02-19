@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: orangered;
+}
+#btn{
+    border: none;
+    font-size: 5rem;
+    background-color: rgb(247, 140, 101);
+    filter: grayscale();
+    transition: filer .2s ease-in-out;
+    cursor: pointer;
+
+}
+#btn:hover{
+    filter: grayscale(0);
+}

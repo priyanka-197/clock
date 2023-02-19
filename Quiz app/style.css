@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(to bottom left, lightgreen, lightblue, lightgreen);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c1{
+    border: 2px solid black;
+    width: 250%;
+    margin: 3px;
+    padding: 9px;
+    display: none;
+    }
+    #btn{
+        background-color: green;
+        margin: 20px;
+        padding: 10px;
+    }
